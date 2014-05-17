@@ -18,7 +18,7 @@ import java.io.Serializable;
 public class barang implements Serializable{
 
 	@Id
-	@GeneratedValue(generator = "sytem-uuid")
+	@GeneratedValue(generator = "system-uuid")
 	@GenericGenerator(name = "system-uuid", strategy="uuid2")
 	private String id;
 	
